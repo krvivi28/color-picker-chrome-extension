@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "colorify",
+    "description": "An extension which copies color from web pages",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "/images/icon.png"
+    },
+    "icons": {
+        "16": "/images/icon.png",
+        "32": "/images/icon.png",
+        "48": "/images/icon.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ]
+}
